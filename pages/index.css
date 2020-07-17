@@ -1,0 +1,18 @@
+@import url(../blocks/event-listing/event-listing.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/choise-options/choise-options.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/places-list/places-list.css);
+@import url(../blocks/place-card/place-card.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup-bigpic/popup.css);
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+
+}

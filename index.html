@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Xsolla Summer Camp 2020 Front</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+  <div class="root">
+    <div class="root__section">
+      <h1 class="event-listing">Event Listing</h1>
+
+      <div class="choise-options">
+        <label for="city" class="form__label_city">City:</label>
+        <select class="form__item form__item_city" name="city">
+          <option value="All">All</option>
+          <option value="Amsterdam">Amsterdam</option>
+          <option value="Berlin">Berlin</option>
+          <option value="Rim">Rim</option>
+          <option value="Sr.Petersburg">Sr.Petersburg</option>
+        </select>
+        <label for="month" class="form__label_month">Month:</label>
+        <select class="form__item form__item_month" name="month">
+          <option value="All">All</option>
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+      </div>
+
+      <div class="places-list root__section">
+
+        <div class="popup popup-bigpic">
+          <div class="popup-bigpic__content">
+            <img src="./images/close.svg" alt="" class="popup__close_big-pic">
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <script src="script/Card.js"></script>
+      <script src="script/CardList.js"></script>
+      <script src="script/Popup.js"></script>
+      <script src="script/scripts.js"></script>
+
+
+</body>
+
+</html>
