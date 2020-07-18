@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Xsolla Summer Camp 2020 Front</title>
-  <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>" />
+
 
 </head>
 
@@ -47,21 +48,18 @@
 
         <div class="popup popup-bigpic">
           <div class="popup-bigpic__content">
-            <img src="./images/close.svg" alt="" class="popup__close_big-pic">
-
+            <img src="<%=require('./images/close.svg').default%>" alt="Крестик закрытия" class="popup__close_big-pic" />
           </div>
         </div>
       </div>
 
+      <footer class="footer">
+                <a class="github" href="https://github.com/AleksandrHexlet/Xsolla" alt="github" rel="noopener noreferrer"
+                  target="_blank" title="Alexandr">GitHub</a>
+       </footer>
+
+      <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 
 
-
-      <script src="script/Card.js"></script>
-      <script src="script/CardList.js"></script>
-      <script src="script/Popup.js"></script>
-      <script src="script/scripts.js"></script>
-
-
-</body>
 
 </html>

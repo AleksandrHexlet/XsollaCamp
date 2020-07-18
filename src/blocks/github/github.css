@@ -1,0 +1,12 @@
+.github {
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.4rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.github:hover {
+  background-color: rgb(221, 215, 215);
+  transition: all 0.7s ease;
+}
