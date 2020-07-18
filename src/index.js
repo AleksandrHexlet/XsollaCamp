@@ -1,3 +1,8 @@
+import "./pages/index.css";
+import { Card } from "./script/Card";
+import { CardList } from "./script/CardList";
+import { Popup } from "./script/Popup";
+
 (function () {
   const placesList = document.querySelector('.places-list'); // контейнер для всех карточeк
 

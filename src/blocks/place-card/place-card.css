@@ -5,9 +5,11 @@
 @import url(./__like-icon/place-card__like-icon.css);
 
 .place-card {
-  width: 282px;
+  /* width: 282px; */
   background-color: #fff;
   border-radius: 10px;
-  min-height: 360px;
+  /* min-height: 360px; */
   background-size: cover;
+  width: 600px;
+  height: 400px;
 }
